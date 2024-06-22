@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import SarmiTourism from "@/components/sarmiTourism";
 import TulisanAtauArtikel from "@/components/tulisanAtauArtikel";
@@ -33,6 +34,8 @@ export default function Home() {
       <div name="Tulisan atau Artikel">
         <h1 className=" px-12 text-[70px] font-bold">Tulisan atau Artikel</h1>
         <TulisanAtauArtikel/>
+        <hr  className="mb-16"/>
+      <Footer/>
       </div>
     </main>
   );

@@ -19,6 +19,7 @@ const Navbar = () => {
         <p className="-mb-1 text-[11px]">MENITI RAJUTAN ASA</p>
         <p className="text-[9px]">MENJALIN SATUNYA RASA</p>
       </div>
+
     </div>
   );
 };

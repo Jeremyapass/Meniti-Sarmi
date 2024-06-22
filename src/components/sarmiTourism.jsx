@@ -22,7 +22,7 @@ const gallery = [
 
 const SarmiTourism = () => {
   return (
-    <div className="flex justify-between bg-red-500">
+    <div className="flex justify-between ">
       {gallery.map((item, index) => (
         <div className="relative" key={index}>
           <Image
