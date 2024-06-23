@@ -8,7 +8,7 @@ export default function Home() {
     <main className="h-screen">
       <div className="bg-drone1 bg-cover  p-6 h-[70%] flex flex-col  bg-no-repeat bg-center justify-between">
         <Navbar />
-        <h1 className="text-white font-josefinsans text-[65px] w-[70%] bg font-bold  ">
+        <h1 className="text-white font-josefinsans text-[78px] w-[70%] bg font-bold  ">
           Jelajahi Keindahan Sarmi Kota Seribu Ombak
         </h1>
       </div>
