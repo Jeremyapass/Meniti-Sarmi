@@ -1,7 +1,7 @@
 import React from "react";
 import FramePanjang from "/public/images/framePanjang.png";
 import Image from "next/image";
-import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 
 const gallery = [
   {
@@ -29,8 +29,11 @@ const TulisanAtauArtikel = () => {
     <ScrollArea className="w-full whitespace-nowrap rounded-md">
       <div className="flex space-x-4 p-4">
         {gallery.map((item, index) => (
-          <div key={index} className="flex-shrink-0 rounded-lg bg-white">
-            <div className="relative h-[500px]  w-[1000px]">
+          <div
+            key={index}
+            className="flex-shrink-0 rounded-lg bg-white w-[300px] sm:w-[500px] md:w-[700px] lg:w-[1000px]"
+          >
+            <div className="relative h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] w-full">
               <Image
                 src={item.gambar}
                 alt={item.judul}
